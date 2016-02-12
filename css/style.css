@@ -880,19 +880,18 @@ figure {
 img {
   max-width: 100%; }
 
-.header-box {
+.bird-box {
   position: relative;
-  height: 600px;
-  background-image: url(../images/header.jpg);
-  background-size: auto 600px;
+  height: 100vh;
+  background-image: url(../images/header_2.jpg);
   background-position: top center;
   background-attachment: fixed;
   overflow: hidden; }
 
 .logo {
-  height: 100px;
+  height: 150px;
   width: 100%;
-  background-image: url(../images/black-bird-logo.svg);
+  background-image: url(../images/header-logo.png);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -902,20 +901,21 @@ img {
 .fore-bird {
   width: 960px;
   height: 733px;
-  background-image: url(../images/fore-bird.png);
+  background-image: url(../images/fore-header.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
   left: 50%;
   margin-left: -480px;
-  top: 380px; }
+  top: 35%; }
 
 .back-bird {
-  width: 960px;
-  height: 298px;
-  background-image: url(../images/back-bird.png);
+  width: 430px;
+  height: 1800px;
+  background-image: url(../images/back-header.png);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: left top;
+  /*background-color: rgba(0,0,0,0.4);*/
   position: absolute;
   left: 50%;
   margin-left: -480px; }
